@@ -1,0 +1,20 @@
+{
+  "name": "rudihuette-signal-v58",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-25",
+  "workers_dev": true,
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "SIGNAL_ROOMS",
+        "class_name": "RudiSignalRoom"
+      }
+    ]
+  },
+  "exports": {
+    "RudiSignalRoom": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  }
+}
