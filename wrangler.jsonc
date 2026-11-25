@@ -1,3 +1,4 @@
+
 {
   "name": "rudihuette-signal-v58",
   "main": "src/index.js",
@@ -11,16 +12,10 @@
       }
     ]
   },
-"migrations": [
-  {
-    "tag": "v1",
-    "new_sqlite_classes": ["RudiSignalRoom"]
-  }
-],
-  "exports": {
-    "RudiSignalRoom": {
-      "type": "durable-object",
-      "storage": "sqlite"
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["RudiSignalRoom"]
     }
-  }
+  ]
 }
