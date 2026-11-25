@@ -11,6 +11,12 @@
       }
     ]
   },
+"migrations": [
+  {
+    "tag": "v1",
+    "new_sqlite_classes": ["RudiSignalRoom"]
+  }
+],
   "exports": {
     "RudiSignalRoom": {
       "type": "durable-object",
